@@ -1,0 +1,16 @@
+---
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  name: "tiow-service"
+  namespace: "default"
+  labels:
+    app: "tiow"
+spec:
+  ports:
+  - protocol: "TCP"
+    port: 80
+  selector:
+    app: "tiow"
+  type: "LoadBalancer"
+  loadBalancerIP: ""

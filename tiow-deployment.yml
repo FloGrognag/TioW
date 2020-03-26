@@ -1,0 +1,21 @@
+---
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata:
+  name: "tiow"
+  namespace: "default"
+  labels:
+    app: "tiow"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "tiow"
+  template:
+    metadata:
+      labels:
+        app: "tiow"
+    spec:
+      containers:
+      - name: "tiow-1"
+        image: "gcr.io/sincere-stock-272320/github.com/flogrognag/tiow:$SHORT_SHA"
