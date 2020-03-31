@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="There Is Only War" indexUrl="http://35.242.168.140/tiow/" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="There_Is_Only_War.gstz" dataType="gamesystem" dataId="c371-4798-69fe-6ad7" dataName="There Is Only War" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Aeldari_-_Ynnari.catz" dataType="catalogue" dataId="2f0e-dd91-7676-722d" dataName="Aeldari - Ynnari" dataBattleScribeVersion="2.03" dataRevision="47"/>
+    <dataIndexEntry filePath="T&apos;au_Empire.catz" dataType="catalogue" dataId="c0bb-c0cd-a715-99c6" dataName="T&apos;au Empire" dataBattleScribeVersion="2.03" dataRevision="56"/>
+    <dataIndexEntry filePath="Imperium_-_Adeptus_Mechanicus.catz" dataType="catalogue" dataId="ebe8-544e-1fe8-fcde" dataName="Imperium - Adeptus Mechanicus" dataBattleScribeVersion="2.03" dataRevision="1"/>
+    <dataIndexEntry filePath="Aeldari_-_Drukhari.catz" dataType="catalogue" dataId="e0a4-2172-4397-e39a" dataName="Aeldari - Drukhari" dataBattleScribeVersion="2.03" dataRevision="1"/>
+  </dataIndexEntries>
+</dataIndex>
