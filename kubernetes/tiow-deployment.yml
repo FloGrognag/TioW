@@ -21,6 +21,7 @@ spec:
         app: tiow
     spec:
       containers:
-        - image: gcr.io/sincere-stock-272320/github.com/flogrognag/tiow
+        - image: gcr.io/sincere-stock-272320/github.com/flogrognag/bsdatas
           imagePullPolicy: IfNotPresent
-          name: tiow-1
+          name: bsdata-1
+s
